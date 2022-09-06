@@ -98,15 +98,15 @@ header a {
     width:950px;
 }
 input{
-    border: 1px solid #cccccc;
-    padding: 8px;
-    border-radius: 5px;
+    border: 2px solid #cccccc;
+    padding: 16px;
+    border-radius: 10px;
 }
 button{
     cursor: pointer;
     border: 1px solid #cccccc;
     background: #888888;
     color: white;
-    padding: 8px;
-    border-radius: 5px;
+    padding: 16px;
+    border-radius: 10px;
 }}
