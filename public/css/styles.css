@@ -53,3 +53,60 @@ button{
     padding: 8px;
     border-radius: 5px;
 }
+
+@media (max-width: 1024px) {
+    body {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+footer {
+    color:#888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 32px 0 ;
+    
+}
+
+header {
+    margin-top: 32px;
+    margin-bottom: 100px;
+}
+h1{
+    font-size: 128px;
+    margin-bottom: 32px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 32px;
+    text-decoration: none;
+}
+
+.portrait{
+    width:950px;
+}
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    background: #888888;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}}
